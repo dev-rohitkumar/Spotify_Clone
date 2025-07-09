@@ -37,6 +37,7 @@ body {
     bottom: 0px;
     width: 100%;
     height: 72px;
+    padding: .5rem;
 }
 
 a{
@@ -254,12 +255,78 @@ a{
 
 .player--control-icon{
     height: 1rem;
-
+    margin: 0rem 1rem ;
+    opacity: 0.7;
 }
 
 .player-controls{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 2rem ;
+    
+}
+
+.player--control-icon:hover{
+    opacity: 1;
+}
+
+.playback-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.progress-bar{
+    width: 60%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+   
+    margin-left: 0.5rem ;
+    margin-right: 0.5rem ;
+    --progress: 0%;
+
+}
+.progress-bar::-webkit-slider-runnable-track {
+  height: 0.28rem;
+  border-radius: 100px;
+  background: linear-gradient(
+    to right,
+    #ddd var(--progress, 0%),
+    rgba(255, 255, 255, 0.3) var(--progress, 0%)
+  );
+  transition: background 0.3s ease;
+}
+
+.progress-bar::-webkit-slider-thumb {
+  appearance: none;
+  height: .9rem;
+  width: .9rem;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: -5.5px;
+  opacity: 0;
+  transition: opacity 0.1s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.progress-bar:hover::-webkit-slider-thumb {
+  opacity: 1;
+}
+
+
+.progress-bar:hover::-webkit-slider-runnable-track {
+  background: linear-gradient(
+    to right,
+    #1db954 var(--progress, 0%),
+    rgba(255, 255, 255, 0.3) var(--progress, 0%)
+  );
+}
+
+
+.curr-time{
+    opacity: .7;
+    font-size: .8rem;
 }
