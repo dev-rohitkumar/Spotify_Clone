@@ -58,12 +58,12 @@ UI building without relying on JavaScript
 📸 Screenshot
 ![Spotify Clone Full UI](Screenshot.png)
 
-```bash
+
 📁 Clone This Project
 
-git clone https://github.com/dev-rohitkumar/Spotify_Clone
-cd Spotify_Clone
-Then open index.html in your browser.
+git clone https://github.com/dev-rohitkumar/Spotify_Clone  
+cd Spotify_Clone  
+Then open index.html in your browser.  
 
 📝 License
 This project is for learning and practice purposes only.
