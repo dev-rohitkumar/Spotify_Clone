@@ -7,7 +7,8 @@ Built as a practice project after completing HTML & CSS and before diving into J
 
 ## 📽️ Preview
 
-https://user-images.githubusercontent.com/video_preview.mp4  
+https://github.com/user-attachments/assets/d27b12e6-3b1b-484c-9224-a5d0411c937e
+
 
 
 > Want a quick peek? Watch this short UI walkthrough and see the clone in action!
