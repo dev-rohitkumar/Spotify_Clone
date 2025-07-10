@@ -44,6 +44,7 @@ Spotify_Clone/
 │   └── (all images/icons)
 ├── video_preview.mp4 
 └── README.md
+```
 
 🧠 What I Learned
 How to structure a music platform layout
@@ -57,10 +58,9 @@ UI building without relying on JavaScript
 📸 Screenshot
 ![Spotify Clone Full UI](Screenshot.png)
 
+```bash
 📁 Clone This Project
-bash
-Copy
-Edit
+
 git clone https://github.com/dev-rohitkumar/Spotify_Clone
 cd Spotify_Clone
 Then open index.html in your browser.
