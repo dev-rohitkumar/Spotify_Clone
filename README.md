@@ -43,7 +43,6 @@ Spotify_Clone/
 ├── style.css
 ├── assets/
 │   └── (all images/icons)
-├── video_preview.mp4 
 └── README.md
 ```
 
