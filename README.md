@@ -46,7 +46,7 @@ Spotify_Clone/
 └── README.md
 ```
 
-🧠 What I Learned
+## 🧠 What I Learned 
 How to structure a music platform layout
 
 Flexbox magic for clean alignment
@@ -55,22 +55,25 @@ Deepened CSS styling: spacing, positioning, cards, icons
 
 UI building without relying on JavaScript
 
-📸 Screenshot
+## 📸 Screenshot
 ![Spotify Clone Full UI](Screenshot.png)
 
 
-📁 Clone This Project
+## 📁 Clone This Project
 
 git clone https://github.com/dev-rohitkumar/Spotify_Clone  
 cd Spotify_Clone  
 Then open index.html in your browser.  
 
-📝 License  
-This project is for learning and practice purposes only.
-Spotify is a trademark of Spotify AB — this is a clone for educational/demo use only.
+## 📝 License  
+This project is for learning and practice purposes only.  
+Spotify is a trademark of Spotify  — this is a clone for educational/demo use only.
 
-🙋‍♂️ Author
-Rohit Kumar
-🌐 LinkedIn | GitHub
+## 📞 Connect With Me
+
+👨‍💻 Rohit Kumar  
+🔗 [LinkedIn](https://www.linkedin.com/in/dev-rohitkumar)  
+🐙 [GitHub](https://github.com/dev-rohitkumar)  
+✨ [x.com(Formerly Twitter)](https://x.com/dev_rohitkumar) 
 
 ⭐ Don’t forget to leave a ⭐ if you liked it!
