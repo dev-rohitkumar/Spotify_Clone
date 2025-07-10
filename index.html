@@ -156,6 +156,13 @@
                     <p class="card-title">Top 50 - Global</p>
                     <p class="card-info"> Your daily updates of the most played...</p>
                 </div>
+
+                <div class="card">
+                    <img src="./assets/card7img.png" class="card-img" >
+                    <p class="card-title">Punjabi Hits</p>
+                    <p class="card-info"> Trending Punjabi Hits by India's...</p>
+                </div>
+
             </div>
             
             <div class="footer">
@@ -197,7 +204,7 @@
                     <img src="./Homework Assets/controls_icon3.png" class="player-icon "  style="width: 1.5rem;  height:1.3rem ;">
                     <img src="./Homework Assets/controls_icon4.png" class="player-icon "  style="width:1.5rem;  height:1rem ;">
                     <img src="./Homework Assets/controls_icon5.png" class="player-icon " style="width: 1.5rem;  height:2rem ;">
-                    <input type="range" min="0" max="100" value="0" step="1" class=" progress-bar" style="width: 4.5rem;">
+                    <input type="range" min="0" max="100" value="100" step="1" class="progress-bar" style="width: 4.5rem;">
                     <img src="./Homework Assets/album_icon2.png" class="player-icon " style="width: 1.5rem;  height:2rem ;">
                 </div>
             </div>
@@ -206,15 +213,22 @@
     </div>
 
     <script>
-        const progress = document.querySelector('.progress-bar');
+        const progressBars = document.querySelectorAll('.progress-bar');
 
-        function updateProgress() {
+        function updateProgress(event) {
+            const progress = event.target;
             const value = (progress.value / progress.max) * 100;
             progress.style.setProperty('--progress', `${value}%`);
         }
 
-        progress.addEventListener('input', updateProgress);
-        progress.addEventListener('change', updateProgress); // optional for mouse release sync
+        progressBars.forEach(progress => {
+            progress.addEventListener('input', updateProgress);
+            progress.addEventListener('change', updateProgress); // optional for mouse release sync
+            
+            // Initialize progress bars with their current value
+            const value = (progress.value / progress.max) * 100;
+            progress.style.setProperty('--progress', `${value}%`);
+        });
     </script>
 </body>
 </html>
